@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="mn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f8ff">
+  <meta name="description" content="12-р ангийн математикийн хичээлийн агуулгын зураглал, үнэлгээний шалгуур ба суралцах явц.">
+  <link rel="icon" href="data:,">
+  <title>Tsedo's math — 12-р ангийн математик</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="curriculum.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <a class="brand-link" href="#home" aria-label="Tsedo's math нүүр хуудас">
+          <span class="brand-mark" id="brandMarkFallback">∑</span>
+          <img class="brand-mark hidden" id="brandLogoImage" alt="Tsedo's math лого">
+          <span class="brand-name"><strong>Tsedo's math</strong><small>Математик · XII</small></span>
+        </a>
+        <button class="brand-logo-change hidden" id="changeLogoButton" type="button" aria-label="Лого зураг солих" title="Лого зураг солих">✎</button>
+        <input id="logoImageInput" type="file" accept="image/png,image/jpeg,image/webp" hidden>
+      </div>
+      <div class="sidebar-label">СУРГАЛТ</div>
+      <nav class="side-nav" aria-label="Үндсэн цэс">
+        <a class="nav-link active" href="#home"><i class="nav-icon" data-lucide="house" aria-hidden="true"></i>Нүүр</a>
+        <a class="nav-link" href="#curriculum"><i class="nav-icon" data-lucide="map" aria-hidden="true"></i>Агуулгын зураглал</a>
+        <a class="nav-link" href="#exercises"><i class="nav-icon" data-lucide="pencil" aria-hidden="true"></i>Дасгал ажил</a>
+        <a class="nav-link" href="#learning"><i class="nav-icon" data-lucide="monitor" aria-hidden="true"></i>Цахим хичээл</a>
+        <a class="nav-link" href="#eesh"><i class="nav-icon" data-lucide="search" aria-hidden="true"></i>ЭЕШ-сорил</a>
+        <a class="nav-link" href="#tests"><i class="nav-icon" data-lucide="clock-3" aria-hidden="true"></i>Шалгалт, сорил</a>
+        <a class="nav-link" href="#classroom"><i class="nav-icon" data-lucide="users" aria-hidden="true"></i>Миний анги</a>
+        <a class="nav-link" href="#assessment"><i class="nav-icon" data-lucide="circle-check" aria-hidden="true"></i>Шалгуурын зураглал</a>
+        <a class="nav-link" href="#progress"><i class="nav-icon" data-lucide="trending-up" aria-hidden="true"></i>Миний ахиц</a>
+      </nav>
+      <div class="sidebar-label">ЛАВЛАХ</div>
+      <nav class="side-nav" aria-label="Математикийн лавлах">
+        <a class="nav-link" href="#formulaReference"><i class="nav-icon" data-lucide="sigma" aria-hidden="true"></i>Томьёоны лавлах</a>
+        <a class="nav-link" href="#glossaryReference"><i class="nav-icon" data-lucide="book-open-text" aria-hidden="true"></i>Тайлбар толь</a>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="sidebar-note">
+          <span class="note-icon">✦</span>
+          <strong>Алхам алхмаар</strong>
+          <p>Албан ёсны хөтөлбөртөө тулгуурлан суралцаарай.</p>
+        </div>
+        <button class="profile-button" id="profileButton" type="button">
+          <span class="avatar" id="profileAvatar">С</span>
+          <span><strong id="profileName">Сурагч</strong><small id="profileRole">Суралцагчийн хэсэг</small></span>
+          <span class="more-icon">···</span>
+        </button>
+      </div>
+    </aside>
+
+    <main class="main-content" id="home">
+      <header class="topbar">
+        <button class="mobile-menu" id="menuToggle" aria-label="Цэс нээх" type="button">☰</button>
+        <div class="breadcrumb">Нүүр <span>/</span> <strong>Сургалтын самбар</strong></div>
+        <div class="top-actions">
+          <span class="saved-state"><i></i> Хадгалалт идэвхтэй</span>
+          <button class="theme-toggle" id="themeToggle" type="button" aria-label="Харанхуй горим асаах" title="Харанхуй горим">
+            <i data-lucide="moon" aria-hidden="true"></i>
+          </button>
+          <button class="role-switch" id="loginButton" type="button"><span>↪</span> Нэвтрэх</button>
+        </div>
+      </header>
+
+      <section class="welcome-section">
+        <button class="cover-image-change hidden" id="changeCoverButton" type="button" aria-label="Нүүр зургийг солих" title="Нүүр зургийг солих">Зураг солих</button>
+        <input id="coverImageInput" type="file" accept="image/png,image/jpeg,image/webp" hidden>
+        <div class="welcome-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> 12-Р АНГИ · МАТЕМАТИК</div>
+          <h1>Сайн байна уу, <span id="welcomeName">Б. ЦЭРЭНДОЛГОР</span>! <span class="wave">✦</span></h1>
+          <p>Өнөөдөр математикийн мэдлэгээ нэг алхмаар ахиулаарай.</p>
+          <a class="primary-button" href="#curriculum">Агуулгаа үзэх <span>→</span></a>
+        </div>
+        <div class="welcome-visual">
+          <span class="welcome-formula formula-sigma" aria-hidden="true">∑</span>
+          <span class="welcome-formula formula-pi" aria-hidden="true">π</span>
+          <span class="welcome-formula formula-root" aria-hidden="true">√x</span>
+          <div class="welcome-photo-frame">
+            <img id="welcomePhoto" src="/media/profiles/profile-62f4a18f8b4839ccab1eb828605606cf.jpg" alt="Таны профайл зураг">
+          </div>
+          <span class="welcome-photo-badge"><span>✦</span> Өдөр бүр нэг алхам</span>
+        </div>
+      </section>
+
+      <section class="stats-grid" aria-label="Сургалтын тойм">
+        <article class="stat-card">
+          <div class="stat-icon icon-blue">▦</div><div class="stat-copy"><span>Үндсэн бүлэг</span><strong id="chapterCount">7</strong><small>Сурах бичгийн бүлэг</small></div>
+          <span class="stat-spark spark-blue">↗</span>
+        </article>
+        <article class="stat-card">
+          <div class="stat-icon icon-purple">⌗</div><div class="stat-copy"><span>Дэд сэдэв</span><strong id="topicCount">37</strong><small>Бүтнээр зурагласан</small></div>
+          <span class="stat-spark spark-purple">↗</span>
+        </article>
+        <article class="stat-card">
+          <div class="stat-icon icon-teal">✓</div><div class="stat-copy"><span>Үнэлгээний шалгуур</span><strong id="criteriaCount">14</strong><small>Нэгж хөтөлбөрөөс</small></div>
+          <span class="stat-spark spark-teal">↗</span>
+        </article>
+        <article class="stat-card">
+          <div class="stat-icon icon-orange">✦</div><div class="stat-copy"><span>Нэмэлт зорилт</span><strong id="starCount">14</strong><small>Одтой зорилтын код</small></div>
+          <span class="stat-spark spark-orange">↗</span>
+        </article>
+      </section>
+
+      <section class="content-section curriculum-section" id="curriculum">
+        <div class="section-heading">
+          <div><div class="eyebrow muted-eyebrow">СУРГАЛТЫН ХӨТӨЛБӨР</div><h2>Агуулгын зураглал</h2><p>Бүлэг, дэд сэдэв, суралцахуйн зорилт, шалгуурын уялдаа.</p></div>
+          <div class="heading-actions"><button class="filter-button" id="starFilter" type="button">✦ Одтой зорилт</button><button class="filter-button" id="clearFilter" type="button">Бүгдийг харах</button></div>
+        </div>
+        <div class="search-row">
+          <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Бүлэг, сэдэв, зорилтоор хайх…" autocomplete="off"></label>
+          <div class="source-pill"><span class="source-check">✓</span> Албан эх сурвалжтай</div>
+        </div>
+        <div class="chapter-grid" id="chapterGrid"></div>
+        <div class="empty-state hidden" id="emptyState">Хайлтад тохирох сэдэв олдсонгүй.</div>
+      </section>
+
+      <section class="content-section learning-section" id="exercises">
+        <div class="section-heading">
+          <div><div class="eyebrow muted-eyebrow">ДАСГАЛ АЖИЛ</div><h2>Бодлогоо сонгоод ажиллаарай</h2><p>Бүлэг болон түвшнээ сонгон ажиллаж, хариугаа шалгуулан оноогоо хадгалаарай.</p></div>
+          <label class="level-picker">Бүлэг
+            <select id="exerciseChapter" aria-label="Дасгалын бүлэг"><option value="absolute">I · Тэгшитгэл, тэнцэтгэл биш</option><option value="polynomials">II · Олон гишүүнт</option><option value="functions">III · Функц ба график</option><option value="derivatives">IV · Функцийн уламжлал</option><option value="integrals">V · Интеграл</option><option value="probability">VI · Магадлал ба статистик</option><option value="complex">VII · Комплекс тоо</option></select>
+          </label>
+          <label class="level-picker">Түвшин
+            <select id="exerciseLevel"><option value="">Бүх түвшин</option><option value="basic">Суурь</option><option value="standard">Стандарт</option><option value="advanced">Ахисан</option></select>
+          </label>
+        </div>
+        <div class="exercise-list" id="exerciseList"><p class="empty-state">Дасгал ажиллахын тулд нэвтэрнэ үү.</p></div>
+      </section>
+
+      <section class="content-section learning-section" id="learning">
+        <div class="section-heading">
+          <div><div class="eyebrow muted-eyebrow">ИНТЕРАКТИВ СУРГАЛТ</div><h2>Цахим хичээл ба математик лаборатори</h2><p>Баталгаатай хичээлээ судалж, алхамтай жишээ, томьёо, график, сорилоор бататга.</p></div>
+          <span class="table-count" id="learningScope">Эх сурвалжтай уялдсан</span>
+        </div>
+        <div id="learningContent"><p class="empty-state">Цахим хичээлийг ачаалж байна.</p></div>
+        <section class="reference-bank" id="formulaReference" aria-labelledby="formulaReferenceTitle"></section>
+        <section class="reference-bank" id="glossaryReference" aria-labelledby="glossaryReferenceTitle"></section>
+      </section>
+
+      <section class="content-section learning-section" id="eesh">
+        <div class="section-heading">
+          <div><div class="eyebrow muted-eyebrow">ОНЫ ШАЛГАЛТЫН БЭЛТГЭЛ</div><h2>ЭЕШ-сорил</h2><p>Оноор болон хувилбараар сонгож хугацаатай сорил ажилла. Хариу, оноо бүртгэлд хадгалагдана.</p></div>
+        </div>
+        <div id="eeshQuizContent"><p class="empty-state">ЭЕШ сорилыг ачаалж байна.</p></div>
+      </section>
+
+      <section class="content-section learning-section" id="tests">
+        <div class="section-heading">
+          <div><div class="eyebrow muted-eyebrow">ЦАГААРТ ШАЛГАЛТ</div><h2>Нэгжийн шалгалт</h2><p>Шалгалтын оролдлого, хугацаа, оноо серверт хадгалагдана.</p></div>
+          <div class="test-controls"><select id="assessmentSelect" aria-label="Шалгалт сонгох"><option value="">Шалгалт сонгоно уу</option></select><button class="filter-button" id="startAssessment" type="button">Шалгалт эхлүүлэх</button></div>
+        </div>
+        <div class="assessment-work" id="assessmentWork"><p class="empty-state">Шалгалт эхлүүлэхийн тулд нэвтэрнэ үү.</p></div>
+      </section>
+
+      <section class="content-section learning-section" id="classroom">
+        <div class="section-heading">
+          <div><div class="eyebrow muted-eyebrow">АНГИ · ХАМТЫН СУРАЛЦАХУЙ</div><h2>Миний анги</h2><p>Багш анги үүсгэн кодоо хуваалцана; сурагч кодоор элсэж болно.</p></div>
+        </div>
+        <div id="classroomContent"><p class="empty-state">Ангийн үйлдэл нэвтэрсний дараа боломжтой.</p></div>
+      </section>
+
+      <section class="content-section assessment-section" id="assessment">
+        <div class="section-heading">
+          <div><div class="eyebrow muted-eyebrow">ҮНЭЛГЭЭНИЙ УЯЛДАА</div><h2>Шалгуурын зураглал</h2><p>Шалгуур бүрийг суралцахуйн зорилт болон бүлэгтэй холбон харуулав.</p></div>
+          <span class="table-count" id="criterionSummary">14 шалгуур · 7 бүлэг</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Бүлэг</th><th>Шалгуур</th><th>Суралцахуйн үр дүнгийн шалгуур</th><th>Зорилтын холбоос</th></tr></thead>
+            <tbody id="criteriaTable"></tbody>
+          </table>
+        </div>
+        <p class="assessment-note"><span>i</span> Гүйцэтгэлийн I–IV түвшний эх текстийг үнэлгээний дасгал үүсгэх үе шатанд нэгж хөтөлбөртэй тулган бүрэн холбож баталгаажуулна. Энэ хувилбарт эхэд байхгүй шалгуур нэмээгүй.</p>
+      </section>
+
+      <section class="content-section progress-section" id="progress">
+        <div class="section-heading">
+          <div><div class="eyebrow muted-eyebrow">СУРАЛЦАХ ЯВЦ</div><h2>Миний ахиц</h2><p>Серверт хадгалсан бодлогын гүйцэтгэл.</p></div>
+          <span class="progress-label" id="progressLabel">0 / 7 бүлэг судалсан</span>
+        </div>
+        <div class="progress-panel">
+          <div class="progress-top"><div><strong>Сургалтын зураглал</strong><span>Бүлэг бүрээ судалж тэмдэглээрэй</span></div><strong class="progress-percent" id="progressPercent">0%</strong></div>
+          <div class="progress-track"><span id="progressBar"></span></div>
+          <div class="progress-chapters" id="progressChapters"></div>
+          <div class="student-dashboard" id="studentDashboard"><p class="empty-state">Ахиц, оноо, алдааны түүхээ харахын тулд нэвтэрнэ үү.</p></div>
+          <div class="error-review" id="errorList"></div>
+          <div class="assessment-history" id="assessmentHistory"></div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <a class="footer-brand" href="#home"><span>∑</span> Tsedo's math</a>
+        <p>Сурах бичиг болон 2026 оны нэгж хөтөлбөрт тулгуурлав.</p>
+        <span class="footer-status"><i></i> Серверт хадгалалт · SQLite</span>
+      </footer>
+    </main>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="print-report hidden" id="printReport"></div>
+  <dialog class="profile-dialog" id="profileSettingsDialog">
+    <div class="dialog-card">
+      <button class="dialog-close" id="closeProfileSettings" type="button" aria-label="Хаах">×</button>
+      <div class="eyebrow muted-eyebrow">ПРОФАЙЛ</div><h2>Профайлын тохиргоо</h2>
+      <p>Өөрийн зураг сурагч, багшийн профайлд харагдана. PNG, JPEG, WebP · 2 MB хүртэл.</p>
+      <img class="profile-preview" id="profilePhotoPreview" alt="Профайлын зураг">
+      <label for="profilePhotoInput">Зургийн файл</label>
+      <input id="profilePhotoInput" type="file" accept="image/png,image/jpeg,image/webp">
+      <small class="dialog-footnote">Зураг таны хэрэглэгчийн бүртгэлд хадгалагдана.</small>
+      <form id="changeProfileNameForm" class="form-stack">
+        <h3>Нэвтрэх нэр</h3>
+        <p>Имэйл хаяг нь нэвтрэх нэр болно.</p>
+        <label for="newProfileName">Профайлд харагдах нэр</label><input id="newProfileName" autocomplete="name" required minlength="2" maxlength="80">
+        <label for="nameChangePassword">Одоогийн нууц үг</label><input id="nameChangePassword" type="password" autocomplete="current-password" required maxlength="128">
+        <button class="primary-button dialog-save" type="submit">Нэрээ хадгалах</button>
+      </form>
+      <form id="changeEmailForm" class="form-stack">
+        <h3>Имэйл солих</h3>
+        <label for="newProfileEmail">Шинэ имэйл</label><input id="newProfileEmail" type="email" autocomplete="email" required maxlength="254">
+        <label for="emailChangePassword">Одоогийн нууц үг</label><input id="emailChangePassword" type="password" autocomplete="current-password" required maxlength="128">
+        <button class="primary-button dialog-save" type="submit">Имэйл солих</button>
+      </form>
+      <form id="changePasswordForm" class="form-stack">
+        <h3>Нууц үг солих</h3>
+        <label for="currentPassword">Одоогийн нууц үг</label><input id="currentPassword" type="password" autocomplete="current-password" required maxlength="128">
+        <label for="newProfilePassword">Шинэ нууц үг</label><input id="newProfilePassword" type="password" autocomplete="new-password" required minlength="12" maxlength="128">
+        <label for="confirmProfilePassword">Шинэ нууц үгээ давтан оруулна уу</label><input id="confirmProfilePassword" type="password" autocomplete="new-password" required minlength="12" maxlength="128">
+        <button class="primary-button dialog-save" type="submit">Нууц үг солих</button>
+      </form>
+    </div>
+  </dialog>
+  <dialog class="profile-dialog" id="authDialog">
+    <div class="dialog-card">
+      <button class="dialog-close" id="closeAuth" type="button" aria-label="Хаах">×</button>
+      <div class="eyebrow muted-eyebrow">TSEDO'S MATH · БҮРТГЭЛ</div><h2 id="authTitle">Нэвтрэх</h2>
+      <p id="authDescription">Имэйл болон нууц үгээ оруулна уу.</p>
+      <form id="authForm" class="form-stack">
+        <label for="authEmail">Имэйл эсвэл утасны дугаар</label><input id="authEmail" type="text" inputmode="email" autocomplete="username" required maxlength="254" placeholder="name@example.com эсвэл 99112233">
+        <div id="registerFields" class="form-stack hidden">
+          <label for="authName">Нэр</label><input id="authName" maxlength="80" autocomplete="name">
+          <label for="authRole">Хэрэглэгчийн төрөл</label><select id="authRole"><option value="student">Сурагч</option><option value="teacher">Багш</option></select>
+          <div id="teacherCodeField" class="hidden"><label for="teacherCode">Багшийн урилгын код</label><input id="teacherCode" autocomplete="off"></div>
+        </div>
+        <label for="authPassword">Нууц үг</label><input id="authPassword" type="password" autocomplete="current-password" required minlength="12" maxlength="128">
+        <button class="primary-button dialog-save" id="authSubmit" type="submit">Нэвтрэх <span>→</span></button>
+      </form>
+      <div class="auth-links"><button id="toggleRegister" type="button">Шинээр бүртгүүлэх</button><button id="showReset" type="button">Нууц үг сэргээх</button></div>
+      <form id="resetForm" class="form-stack hidden">
+        <label for="resetEmail">Бүртгэлтэй имэйл</label><input id="resetEmail" type="email" required>
+        <button class="filter-button" type="button" id="requestReset">Сэргээх код авах</button>
+        <label for="resetToken">Сэргээх код</label><input id="resetToken" autocomplete="one-time-code">
+        <label for="newPassword">Шинэ нууц үг</label><input id="newPassword" type="password" minlength="12" maxlength="128">
+        <button class="primary-button dialog-save" type="button" id="confirmReset">Нууц үг шинэчлэх</button>
+      </form>
+      <small class="dialog-footnote">Нууц үг сэргээх хөгжүүлэлтийн горимд код серверийн консолд гарна.</small>
+    </div>
+  </dialog>
+</body>
+</html>

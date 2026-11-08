@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="600" viewBox="0 0 1920 600" fill="none">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1920" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080F2B"/>
+      <stop offset=".48" stop-color="#101541"/>
+      <stop offset="1" stop-color="#111333"/>
+    </linearGradient>
+    <radialGradient id="violetGlow" cx="0" cy="0" r="1" gradientTransform="matrix(-620 350 -220 -390 1820 142)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cyanGlow" cx="0" cy="0" r="1" gradientTransform="matrix(360 310 -230 267 1570 600)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="leftGlow" cx="0" cy="0" r="1" gradientTransform="matrix(300 260 -220 254 110 0)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B82F6" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wave" x1="540" y1="150" x2="1710" y2="442" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset=".45" stop-color="#67E8F9" stop-opacity=".56"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity=".18"/>
+    </linearGradient>
+    <linearGradient id="curve" x1="660" y1="120" x2="1830" y2="516" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA" stop-opacity=".06"/>
+      <stop offset=".55" stop-color="#A78BFA" stop-opacity=".44"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity=".2"/>
+    </linearGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" stroke="#9BB7FF" stroke-opacity=".105" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1.5" fill="#A5B4FC" fill-opacity=".26"/>
+    </pattern>
+    <linearGradient id="gridFade" x1="610" y1="0" x2="1640" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".2" stop-color="#fff" stop-opacity=".7"/>
+      <stop offset=".8" stop-color="#fff" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="gridMask">
+      <rect x="580" width="1150" height="600" fill="url(#gridFade)"/>
+      <rect x="580" width="1150" height="600" fill="#fff" fill-opacity=".45"/>
+    </mask>
+    <filter id="softBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+    <filter id="lineGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="edgeShade" x1="0" y1="0" x2="1920" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#05091C" stop-opacity=".3"/>
+      <stop offset=".4" stop-color="#05091C" stop-opacity="0"/>
+      <stop offset=".82" stop-color="#05091C" stop-opacity="0"/>
+      <stop offset="1" stop-color="#05091C" stop-opacity=".18"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1920" height="600" fill="url(#background)"/>
+  <rect width="1920" height="600" fill="url(#violetGlow)"/>
+  <rect width="1920" height="600" fill="url(#cyanGlow)"/>
+  <rect width="1920" height="600" fill="url(#leftGlow)"/>
+
+  <ellipse cx="1538" cy="314" rx="454" ry="205" fill="#6257D9" fill-opacity=".09" filter="url(#softBlur)"/>
+  <ellipse cx="1813" cy="95" rx="208" ry="235" fill="#8B5CF6" fill-opacity=".12" filter="url(#softBlur)"/>
+  <ellipse cx="1248" cy="556" rx="322" ry="119" fill="#22D3EE" fill-opacity=".08" filter="url(#softBlur)"/>
+
+  <g mask="url(#gridMask)" opacity=".72">
+    <rect x="580" width="1150" height="600" fill="url(#grid)"/>
+  </g>
+
+  <g stroke="#91A7FF" stroke-opacity=".19" stroke-width="1">
+    <path d="M760 84V516M1016 84V516M1272 84V516M1528 84V516"/>
+    <path d="M652 172H1640M652 300H1640M652 428H1640"/>
+  </g>
+  <g stroke="#B6C5FF" stroke-opacity=".32" stroke-width="1.5">
+    <path d="M650 300H1646"/>
+    <path d="M1016 86V516"/>
+  </g>
+
+  <g filter="url(#lineGlow)" stroke-linecap="round">
+    <path d="M658 363C748 363 786 199 874 199S1001 401 1090 401 1211 218 1298 218 1423 365 1511 365 1630 258 1725 258"
+      stroke="url(#wave)" stroke-width="2.1"/>
+    <path d="M714 145C873 158 946 246 1057 337S1264 492 1456 441 1646 275 1802 200"
+      stroke="url(#curve)" stroke-width="1.8"/>
+    <path d="M736 489C839 457 900 385 994 341S1173 282 1270 302 1430 398 1519 392 1660 313 1760 283"
+      stroke="#8B9BFF" stroke-opacity=".28" stroke-width="1.4"/>
+  </g>
+
+  <g fill="#0C1234" fill-opacity=".22" stroke="#A8B5FF" stroke-opacity=".44" stroke-width="1.5">
+    <circle cx="1439" cy="300" r="105"/>
+    <circle cx="1439" cy="300" r="72" stroke-opacity=".25"/>
+    <circle cx="1717" cy="181" r="49" stroke="#69DDF4" stroke-opacity=".45"/>
+    <circle cx="1190" cy="415" r="25" stroke="#B99AFF" stroke-opacity=".5"/>
+  </g>
+  <g stroke="#91A7FF" stroke-opacity=".22" stroke-width="1">
+    <path d="M1439 170V430M1309 300H1569"/>
+    <path d="M1439 194L1545 375M1545 225L1333 375"/>
+  </g>
+  <g fill="#9FEAFF" fill-opacity=".78">
+    <circle cx="1439" cy="300" r="3"/>
+    <circle cx="1511" cy="365" r="2.6"/>
+    <circle cx="1298" cy="218" r="2.3"/>
+    <circle cx="1717" cy="181" r="2.4"/>
+    <circle cx="1190" cy="415" r="2.2"/>
+  </g>
+
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#C5C9FF" fill-opacity=".28">
+    <text x="858" y="126" font-size="35">π</text>
+    <text x="1106" y="178" font-size="31">∑</text>
+    <text x="1635" y="467" font-size="38">∫</text>
+    <text x="1810" y="333" font-size="31">∞</text>
+    <text x="1050" y="500" font-size="28">√x</text>
+    <text x="1490" y="120" font-size="25">π</text>
+  </g>
+
+  <g fill="#B5C9FF" fill-opacity=".32">
+    <circle cx="776" cy="247" r="1.5"/>
+    <circle cx="922" cy="452" r="1.3"/>
+    <circle cx="1154" cy="105" r="1.7"/>
+    <circle cx="1268" cy="510" r="1.2"/>
+    <circle cx="1580" cy="151" r="1.4"/>
+    <circle cx="1672" cy="408" r="1.7"/>
+    <circle cx="1838" cy="505" r="1.3"/>
+    <circle cx="1361" cy="110" r="1.1"/>
+    <circle cx="1084" cy="259" r="1.2"/>
+    <circle cx="1575" cy="490" r="1.1"/>
+  </g>
+
+  <rect width="1920" height="600" fill="url(#edgeShade)"/>
+</svg>

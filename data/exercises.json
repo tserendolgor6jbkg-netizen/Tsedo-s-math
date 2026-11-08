@@ -1,0 +1,290 @@
+[
+  {
+    "id": "absolute-basic-01", "chapter_id": "absolute", "topic": "Тооны модул", "level": "basic", "criteria": ["1.1"],
+    "prompt": "|−8|-ийн утгыг ол.", "answer": "8", "points": 1,
+    "explanation": "Модуль нь тоон шулуун дээрх 0 цэгээс тухайн тоо хүртэлх зай. Иймээс |−8|=8.", "hint": "Сөрөг тооны модуль эерэг байдаг."
+  },
+  {
+    "id": "absolute-basic-02", "chapter_id": "absolute", "topic": "Тооны модул", "level": "basic", "criteria": ["1.1"],
+    "prompt": "|3−10|-ийг бод.", "answer": "7", "points": 1,
+    "explanation": "Эхлээд доторх ялгаврыг олно: 3−10=−7. Дараа нь модуль авбал |−7|=7.", "hint": "Модулийн доторх илэрхийллийг эхэлж бодоорой."
+  },
+  {
+    "id": "absolute-basic-03", "chapter_id": "absolute", "topic": "Тооны модул", "level": "basic", "criteria": ["1.1"],
+    "prompt": "Тоон шулуун дээр −4 ба 5-ын хоорондох зайг ол.", "answer": "9", "points": 1,
+    "explanation": "Хоёр тооны хоорондох зай |5−(−4)|=|9|=9.", "hint": "Хоёр тооны зайг ялгаврын модулиар олно."
+  },
+  {
+    "id": "absolute-basic-04", "chapter_id": "absolute", "topic": "Тооны модул", "level": "basic", "criteria": ["1.1"],
+    "prompt": "|x|=6 тэгшитгэлийн бүх шийдийг ол. Хоёр шийд байвал таслалаар тусгаарлан бич.", "answer": "-6,6", "points": 1,
+    "explanation": "0-ээс 6 нэгж зайтай хоёр тоо байдаг: x=−6 болон x=6.", "hint": "Модуль нь 6 байх тоонууд 0-ээс хоёр талд ижил зайтай."
+  },
+  {
+    "id": "absolute-basic-05", "chapter_id": "absolute", "topic": "Тооны модул", "level": "basic", "criteria": ["1.1"],
+    "prompt": "|x−2|=0 тэгшитгэлийг бод.", "answer": "2", "points": 1,
+    "explanation": "Абсолют утга 0 болохын тулд доторх илэрхийлэл 0 байна. x−2=0 тул x=2.", "hint": "Тооны модуль 0 болох цорын ганц нөхцөл юу вэ?"
+  },
+  {
+    "id": "absolute-basic-06", "chapter_id": "absolute", "topic": "Модул агуулсан тэгшитгэл", "level": "basic", "criteria": ["1.1"],
+    "prompt": "|x+3|=4 тэгшитгэлийн шийдийг ол. Хоёр шийдийг таслалаар тусгаарлан бич.", "answer": "-7,1", "points": 1,
+    "explanation": "x+3=4 эсвэл x+3=−4. Эхнийхээс x=1, хоёр дахьгаас x=−7. Иймээс −7, 1.", "hint": "Модуль тэгшитгэлийг доторх илэрхийлэл ±4 болох хоёр тохиолдлоор бод."
+  },
+  {
+    "id": "absolute-basic-07", "chapter_id": "absolute", "topic": "Модул агуулсан тэнцэтгэл биш", "level": "basic", "criteria": ["1.1"],
+    "prompt": "|x−1|<3 тэнцэтгэл бишийг бод. Шийдийг x-ийн завсраар бич.", "answer": "-2<x<4", "points": 1,
+    "explanation": "−3<x−1<3 гэж бичнэ. Бүх хэсэгт 1 нэмбэл −2<x<4.", "hint": "|u|<a үед −a<u<a."
+  },
+  {
+    "id": "absolute-basic-08", "chapter_id": "absolute", "topic": "Модул агуулсан тэгшитгэл", "level": "basic", "criteria": ["1.1"],
+    "prompt": "|2x|=10 тэгшитгэлийн шийдийг ол. Хоёр шийдийг таслалаар тусгаарлан бич.", "answer": "-5,5", "points": 1,
+    "explanation": "2x=10 эсвэл 2x=−10. Иймээс x=5 эсвэл x=−5.", "hint": "Доторх илэрхийллийг 10 ба −10-тай тэнцүүл."
+  },
+  {
+    "id": "absolute-basic-09", "chapter_id": "absolute", "topic": "Модул агуулсан тэнцэтгэл биш", "level": "basic", "criteria": ["1.1"],
+    "prompt": "|x|>2 тэнцэтгэл бишийн шийдийг бич.", "answer": "x<-2 or x>2", "points": 1,
+    "explanation": "0-ээс 2-оос их зайтай тоонууд нь −2-оос бага эсвэл 2-оос их байна.", "hint": "|x|>a үед хоёр тийш салсан хоёр цацраг гарна."
+  },
+  {
+    "id": "absolute-basic-10", "chapter_id": "absolute", "topic": "Модул агуулсан тэнцэтгэл биш", "level": "basic", "criteria": ["1.1"],
+    "prompt": "|x−4|≤2 тэнцэтгэл бишийн шийдийг бич.", "answer": "2≤x≤6", "points": 1,
+    "explanation": "−2≤x−4≤2 гэж бичээд 4 нэмнэ. Тэгвэл 2≤x≤6.", "hint": "|u|≤a үед −a≤u≤a."
+  },
+  {
+    "id": "absolute-standard-01", "chapter_id": "absolute", "topic": "Модул агуулсан тэгшитгэл", "level": "standard", "criteria": ["1.1", "1.2"],
+    "prompt": "|2x−1|=5 тэгшитгэлийн шийдийг ол. Хоёр шийдийг таслалаар тусгаарлан бич.", "answer": "-2,3", "points": 2,
+    "explanation": "2x−1=5 эсвэл 2x−1=−5. Эхнийхээс x=3, хоёр дахьгаас x=−2.", "hint": "Модуль доторх илэрхийллийг эхлээд 5, дараа нь −5-тай тэнцүүл."
+  },
+  {
+    "id": "absolute-standard-02", "chapter_id": "absolute", "topic": "Модул агуулсан тэгшитгэл", "level": "standard", "criteria": ["1.1"],
+    "prompt": "|3x+6|=0 тэгшитгэлийг бод.", "answer": "-2", "points": 2,
+    "explanation": "Модуль 0 тул 3x+6=0. Тэгшитгэлийг бодвол x=−2.", "hint": "Абсолют утга 0 байх үед зөвхөн нэг шугаман тэгшитгэл бодно."
+  },
+  {
+    "id": "absolute-standard-03", "chapter_id": "absolute", "topic": "Модул агуулсан тэнцэтгэл биш", "level": "standard", "criteria": ["1.1", "1.2"],
+    "prompt": "|x+2|<5 тэнцэтгэл бишийг бод.", "answer": "-7<x<3", "points": 2,
+    "explanation": "−5<x+2<5. Хэсэг бүрээс 2-ыг хасахад −7<x<3.", "hint": "−5<x+2<5 гэж давхар тэнцэтгэл биш болго."
+  },
+  {
+    "id": "absolute-standard-04", "chapter_id": "absolute", "topic": "Модул агуулсан тэнцэтгэл биш", "level": "standard", "criteria": ["1.1", "1.2"],
+    "prompt": "|2x−4|≥6 тэнцэтгэл бишийн шийдийг бич.", "answer": "x≤-1 or x≥5", "points": 2,
+    "explanation": "2x−4≤−6 эсвэл 2x−4≥6. Эдгээрээс x≤−1 эсвэл x≥5 гарна.", "hint": "|u|≥a үед u≤−a эсвэл u≥a."
+  },
+  {
+    "id": "absolute-standard-05", "chapter_id": "absolute", "topic": "Модул агуулсан тэгшитгэл", "level": "standard", "criteria": ["1.2"],
+    "prompt": "|x−1|=|x+3| тэгшитгэлийг бод.", "answer": "-1", "points": 2,
+    "explanation": "Хоёр талын квадратуудыг тэнцүүлж (x−1)²=(x+3)². Задлавал −8x=8 тул x=−1. Шалгалт: хоёр тал 2.", "hint": "Хоёр модуль тэнцүү бол тэдгээрийн квадратуудыг тэнцүүлж болно."
+  },
+  {
+    "id": "absolute-standard-06", "chapter_id": "absolute", "topic": "Модул агуулсан тэгшитгэл", "level": "standard", "criteria": ["1.1", "1.2"],
+    "prompt": "Тоон шулуун дээр −2 цэгээс x хүртэлх зай 5 байх x-ийн утгуудыг ол.", "answer": "-7,3", "points": 2,
+    "explanation": "Зайг |x−(−2)|=5 буюу |x+2|=5 гэж бичнэ. x+2=5 эсвэл −5 тул x=3 эсвэл x=−7.", "hint": "Зайг |x−a| хэлбэрээр бич."
+  },
+  {
+    "id": "absolute-standard-07", "chapter_id": "absolute", "topic": "Модул агуулсан тэнцэтгэл биш", "level": "standard", "criteria": ["1.1"],
+    "prompt": "|x−4|≤7 тэнцэтгэл бишийн шийдийг ол.", "answer": "-3≤x≤11", "points": 2,
+    "explanation": "−7≤x−4≤7. Бүх хэсэгт 4 нэмэхэд −3≤x≤11.", "hint": "Модулийн доторх илэрхийллийг −7 ба 7-ын хооронд бич."
+  },
+  {
+    "id": "absolute-standard-08", "chapter_id": "absolute", "topic": "Модул агуулсан тэнцэтгэл биш", "level": "standard", "criteria": ["1.1", "1.2"],
+    "prompt": "|3x+1|>8 тэнцэтгэл бишийн шийдийг ол.", "answer": "x<-3 or x>7/3", "points": 2,
+    "explanation": "3x+1<−8 эсвэл 3x+1>8. Эхнийхээс x<−3, хоёр дахьгаас x>7/3.", "hint": "Хоёр тусдаа шугаман тэнцэтгэл биш болгон салга."
+  },
+  {
+    "id": "absolute-standard-09", "chapter_id": "absolute", "topic": "Модул агуулсан тэгшитгэл", "level": "standard", "criteria": ["1.2"],
+    "prompt": "|x−6|=|x+2| тэгшитгэлийг бод.", "answer": "2", "points": 2,
+    "explanation": "(x−6)²=(x+2)². Ялгаврын квадратын томьёогоор −16x+32=0 тул x=2. Шалгалтаар хоёр тал 4.", "hint": "Хоёр модуль тэнцүү үед хоёр илэрхийллийг квадратла."
+  },
+  {
+    "id": "absolute-standard-10", "chapter_id": "absolute", "topic": "Модул агуулсан тэгшитгэл", "level": "standard", "criteria": ["1.1"],
+    "prompt": "|2x+3|=1 тэгшитгэлийн шийдийг ол.", "answer": "-2,-1", "points": 2,
+    "explanation": "2x+3=1 эсвэл 2x+3=−1. Эхнийхээс x=−1, хоёр дахьгаас x=−2.", "hint": "Доторх илэрхийллийг 1 ба −1-тэй тэнцүүл."
+  },
+  {
+    "id": "absolute-advanced-01", "chapter_id": "absolute", "topic": "Модул агуулсан тэгшитгэл", "level": "advanced", "criteria": ["1.2"],
+    "prompt": "|2x−3|=7 тэгшитгэлийн шийдүүдийг ол.", "answer": "-2,5", "points": 3,
+    "explanation": "2x−3=7 эсвэл 2x−3=−7. Эдгээрээс x=5, x=−2. Хоёуланг анхны тэгшитгэлд орлуулж шалгахад модуль 7 гарна.", "hint": "Хоёр боломжийг тус тусад нь бодоод шалга."
+  },
+  {
+    "id": "absolute-advanced-02", "chapter_id": "absolute", "topic": "Модул агуулсан тэнцэтгэл биш", "level": "advanced", "criteria": ["1.2"],
+    "prompt": "|3x+1|<8 тэнцэтгэл бишийн шийдийг ол.", "answer": "-3<x<7/3", "points": 3,
+    "explanation": "−8<3x+1<8. Нэгжийг хасаж 3-т хуваахад −3<x<7/3.", "hint": "Давхар тэнцэтгэл биш үүсгээд бүх хэсэгт ижил үйлдэл хий."
+  },
+  {
+    "id": "absolute-advanced-03", "chapter_id": "absolute", "topic": "Модул агуулсан тэнцэтгэл биш", "level": "advanced", "criteria": ["1.2"],
+    "prompt": "|2x+1|≥5 тэнцэтгэл бишийн шийдийг ол.", "answer": "x≤-3 or x≥2", "points": 3,
+    "explanation": "2x+1≤−5 эсвэл 2x+1≥5. Хувааж бодоход x≤−3 эсвэл x≥2.", "hint": "Их буюу тэнцүү модуль нь хоёр гаднах муж өгнө."
+  },
+  {
+    "id": "absolute-advanced-04", "chapter_id": "absolute", "topic": "Модул агуулсан тэгшитгэл", "level": "advanced", "criteria": ["1.2"],
+    "prompt": "|x−a|=4 тэгшитгэлийн хоёр шийд −1 ба 7 бол a-г ол.", "answer": "3", "points": 3,
+    "explanation": "Тэгшитгэлийн хоёр шийд төв a-гаас ижил зайтай тул a нь −1 ба 7-ын дундаж: (−1+7)/2=3. Зай нь 4 тул нөхцөл биелнэ.", "hint": "Хоёр шийд нь тоон шулуун дээр a төвтэй тэгш хэмтэй."
+  },
+  {
+    "id": "absolute-advanced-05", "chapter_id": "absolute", "topic": "Модул агуулсан тэгшитгэл", "level": "advanced", "criteria": ["1.2"],
+    "prompt": "|2x−k|=6 тэгшитгэлийн шийдүүд −1 ба 5 байхын тулд k ямар байх вэ?", "answer": "4", "points": 3,
+    "explanation": "Шийдүүд −1, 5 нь x=k/2 төвийн хоёр талд байрлана. Дундаж нь 2 тул k/2=2, k=4. Орлуулж шалгахад хоёр шийдэд модуль 6.", "hint": "Шийдүүдийн дундаж нь модуль доторх илэрхийллийг 0 болгох цэг."
+  },
+  {
+    "id": "absolute-advanced-06", "chapter_id": "absolute", "topic": "Модул агуулсан тэнцэтгэл биш", "level": "advanced", "criteria": ["1.2"],
+    "prompt": "|x−2|<|x+4| тэнцэтгэл бишийг бод.", "answer": "x>-1", "points": 3,
+    "explanation": "Хоёр тал үл сөрөг тул квадратлаж болно: (x−2)²<(x+4)². Задлахад −12x<12 тул x>−1. Тэнцүү зайны зааг x=−1 бөгөөд түүнээс баруун талд 2 цэг ойр.", "hint": "Хоёр зайг квадратлаад квадратуудын ялгаврыг задла."
+  },
+  {
+    "id": "absolute-advanced-07", "chapter_id": "absolute", "topic": "Модул агуулсан тэнцэтгэл биш", "level": "advanced", "criteria": ["1.2"],
+    "prompt": "−5≤x≤5 бүхэл тоонуудаас |x−2|>3 нөхцөлийг хангах утгуудыг ол. Өсөх дарааллаар таслалаар тусгаарла.", "answer": "-5,-4,-3,-2", "points": 3,
+    "explanation": "|x−2|>3-ыг x−2<−3 эсвэл x−2>3 гэж салгана. Иймээс x<−1 эсвэл x>5. Өгсөн −5≤x≤5 бүхэл тоонуудаас −5, −4, −3, −2 үлдэнэ.", "hint": "Эхлээд тэнцэтгэл бишийн шийдийг олж, дараа нь өгсөн бүхэл мужтай огтлолцуул."
+  },
+  {
+    "id": "absolute-advanced-08", "chapter_id": "absolute", "topic": "Модул агуулсан тэгшитгэл", "level": "advanced", "criteria": ["1.2"],
+    "prompt": "|3x−6|=m тэгшитгэл яг нэг бодит шийдтэй байхын тулд m хэд байх вэ?", "answer": "0", "points": 3,
+    "explanation": "Модулийн утга m сөрөг биш байх ёстой. m>0 бол шугаман илэрхийлэл m ба −m болох хоёр шийдтэй; m=0 үед 3x−6=0 гэсэн ганц шийдтэй. Иймээс m=0.", "hint": "m=0 болон m>0 гэсэн тохиолдлыг тусад нь авч үз."
+  },
+  {
+    "id": "absolute-advanced-09", "chapter_id": "absolute", "topic": "Модул агуулсан тэнцэтгэл биш", "level": "advanced", "criteria": ["1.2"],
+    "prompt": "|2x+1|≤|x−5| тэнцэтгэл бишийн шийдийг ол.", "answer": "-6≤x≤4/3", "points": 3,
+    "explanation": "Хоёр тал үл сөрөг тул квадратлана. Ялгаврыг квадратуудын ялгаврын томьёогоор задлахад (2x+1)²−(x−5)²=(x+6)(3x−4)≤0. Үржвэрийн тэмдэг 0-ээс ихгүй байх муж нь −6≤x≤4/3.", "hint": "Квадратуудын ялгаврыг (A−B)(A+B) хэлбэрээр задал."
+  },
+  {
+    "id": "absolute-advanced-10", "chapter_id": "absolute", "topic": "Модул агуулсан тэнцэтгэл биш", "level": "advanced", "criteria": ["1.2"],
+    "prompt": "|x−1|≥2 ба |x−1|<5 нөхцөлийг зэрэг хангах x-ийн мужийг ол.", "answer": "-4<x≤-1 or 3≤x<6", "points": 3,
+    "explanation": "Эхний нөхцөлөөс x≤−1 эсвэл x≥3. Хоёр дахь нөхцөлөөс −4<x<6. Огтлолцуулахад −4<x≤−1 эсвэл 3≤x<6.", "hint": "Хоёр нөхцөлийн шийдийн мужийг олж огтлолцуул."
+  },
+  {
+    "id": "polynomials-basic-01", "chapter_id": "polynomials", "topic": "Нэг ба олон гишүүнт", "level": "basic", "criteria": ["2.1"],
+    "prompt": "3x+2x−4 илэрхийллийг хялбарчил.", "answer": "5x-4", "points": 1,
+    "explanation": "Ижил гишүүдийг нэгтгэнэ: 3x+2x=5x. Иймээс илэрхийлэл 5x−4 болно.", "hint": "Зөвхөн x-тэй гишүүдийг хооронд нь нэгтгээрэй."
+  },
+  {
+    "id": "polynomials-basic-02", "chapter_id": "polynomials", "topic": "Нэг ба олон гишүүнт", "level": "basic", "criteria": ["2.1"],
+    "prompt": "(x+2)(x+3)-ийг үржүүлж олон гишүүнт хэлбэрт бич.", "answer": "x^2+5x+6", "points": 1,
+    "explanation": "Хаалт бүрийн гишүүдийг үржүүлбэл x²+3x+2x+6=x²+5x+6.", "hint": "Хаалт тус бүрийн гишүүнийг нөгөө хаалтын гишүүн бүрээр үржүүл."
+  },
+  {
+    "id": "polynomials-basic-03", "chapter_id": "polynomials", "topic": "Нэг ба олон гишүүнт", "level": "basic", "criteria": ["2.1"],
+    "prompt": "P(x)=x²−2x+3 бол P(2)-ыг ол.", "answer": "3", "points": 1,
+    "explanation": "x-ийн оронд 2 орлуулбал P(2)=2²−2·2+3=4−4+3=3.", "hint": "x бүрийн оронд 2-ыг орлуулж үйлдлийн дарааллаар бод."
+  },
+  {
+    "id": "polynomials-basic-04", "chapter_id": "polynomials", "topic": "Безугийн теорем", "level": "basic", "criteria": ["2.1"],
+    "prompt": "x²−9 олон гишүүнийг үржигдэхүүн болгон задал.", "answer": "(x-3)(x+3)", "points": 1,
+    "explanation": "Ялгаврын квадратын томьёогоор x²−9=(x−3)(x+3).", "hint": "a²−b²=(a−b)(a+b) томьёог хэрэглэ."
+  },
+  {
+    "id": "polynomials-standard-01", "chapter_id": "polynomials", "topic": "Олон гишүүнтийг хуваах үйлдэл", "level": "standard", "criteria": ["2.1"],
+    "prompt": "x³−1-ийг x−1-д хуваахад гарах ногдворыг ол.", "answer": "x^2+x+1", "points": 2,
+    "explanation": "x³−1=(x−1)(x²+x+1) тул ногдвор x²+x+1, үлдэгдэл 0.", "hint": "Кубуудын ялгаврыг задлах томьёог сана."
+  },
+  {
+    "id": "polynomials-standard-02", "chapter_id": "polynomials", "topic": "Безугийн теорем", "level": "standard", "criteria": ["2.1"],
+    "prompt": "P(x)=x²+3x+1 олон гишүүнийг x+1-д хуваахад гарах үлдэгдлийг ол.", "answer": "-1", "points": 2,
+    "explanation": "Безугийн теоремоор үлдэгдэл P(−1) байна. P(−1)=1−3+1=−1.", "hint": "x+1=0 болох x-ийн утгыг P(x)-д орлуул."
+  },
+  {
+    "id": "polynomials-standard-03", "chapter_id": "polynomials", "topic": "Безугийн теорем", "level": "standard", "criteria": ["2.1"],
+    "prompt": "x³−4x²+x+6=0 тэгшитгэлийн бүх бодит шийдийг ол. Өсөх дарааллаар таслалаар тусгаарлан бич.", "answer": "-1,2,3", "points": 2,
+    "explanation": "Олон гишүүнтийг (x−2)(x−3)(x+1) болгон задална. Иймээс шийдүүд −1, 2, 3.", "hint": "Бүхэл язгуурын боломжит утгуудыг шалгаад Безугийн теорем хэрэглэ."
+  },
+  {
+    "id": "polynomials-standard-04", "chapter_id": "polynomials", "topic": "Рационал илэрхийллийг олон гишүүнт болон алгебрын хялбар бутархайн нийлбэр болгон задлах", "level": "standard", "criteria": ["2.2"],
+    "prompt": "1/((x+1)(x+2)) бутархайг энгийн бутархайн нийлбэрт задал.", "answer": "1/(x+1)-1/(x+2)", "points": 2,
+    "explanation": "1/((x+1)(x+2))=A/(x+1)+B/(x+2) гэж тавина. A=1, B=−1 тул 1/(x+1)−1/(x+2).", "hint": "A(x+2)+B(x+1)=1 тэнцэтгэлээс коэффициентүүдийг ол."
+  },
+  {
+    "id": "polynomials-advanced-01", "chapter_id": "polynomials", "topic": "Олон гишүүнтийг хуваах үйлдэл", "level": "advanced", "criteria": ["2.1", "2.2"],
+    "prompt": "x⁴−1-ийг x²−1-д хуваахад гарах ногдворыг ол.", "answer": "x^2+1", "points": 3,
+    "explanation": "x⁴−1=(x²−1)(x²+1) тул ногдвор x²+1, үлдэгдэл 0.", "hint": "Квадратуудын ялгаврыг x²-ийг хувьсагч болгон задал."
+  },
+  {
+    "id": "polynomials-advanced-02", "chapter_id": "polynomials", "topic": "Безугийн теорем", "level": "advanced", "criteria": ["2.1", "2.2"],
+    "prompt": "2x³+kx²−5x+2 олон гишүүнийг x−1-д хуваагддаг байлгах k-ийн утгыг ол.", "answer": "1", "points": 3,
+    "explanation": "Безугийн теоремоор P(1)=0. 2+k−5+2=k−1=0 тул k=1.", "hint": "x−1 үржигдэхүүн байхын тулд P(1)=0 байх ёстой."
+  },
+  {
+    "id": "polynomials-advanced-03", "chapter_id": "polynomials", "topic": "Рационал илэрхийллийг олон гишүүнт болон алгебрын хялбар бутархайн нийлбэр болгон задлах", "level": "advanced", "criteria": ["2.2"],
+    "prompt": "(2x+3)/(x+1)² бутархайг энгийн бутархайн нийлбэрт задал.", "answer": "2/(x+1)+1/(x+1)^2", "points": 3,
+    "explanation": "(2x+3)/(x+1)²=A/(x+1)+B/(x+1)² гэж тавихад 2x+3=A(x+1)+B. Коэффициентүүдээс A=2, B=1.", "hint": "Хоёр талыг (x+1)²-оор үржүүлээд коэффициентүүдийг тэнцүүл."
+  },
+  {
+    "id": "polynomials-advanced-04", "chapter_id": "polynomials", "topic": "Безугийн теорем", "level": "advanced", "criteria": ["2.1", "2.2"],
+    "prompt": "x⁴−5x²+4=0 тэгшитгэлийн бүх бодит шийдийг ол. Өсөх дарааллаар таслалаар тусгаарлан бич.", "answer": "-2,-1,1,2", "points": 3,
+    "explanation": "x⁴−5x²+4=(x²−1)(x²−4)=(x−1)(x+1)(x−2)(x+2). Иймээс шийдүүд −2, −1, 1, 2.", "hint": "x²-ийг шинэ хувьсагч гэж үзээд квадрат тэгшитгэл болгон бод."
+  },
+  {"id":"functions-basic-01","chapter_id":"functions","topic":"Тооны логарифм","level":"basic","criteria":["3.1"],"prompt":"log₂8-ийн утгыг ол.","answer":"3","points":1,"explanation":"2³=8 тул log₂8=3.","hint":"2-ыг хэдэн зэрэгт дэвшүүлэхэд 8 гарах вэ?"},
+  {"id":"functions-basic-02","chapter_id":"functions","topic":"Логарифмын чанар","level":"basic","criteria":["3.1"],"prompt":"log₅25-ийн утгыг ол.","answer":"2","points":1,"explanation":"5²=25 тул логарифм 2.","hint":"Логарифмын тодорхойлолтыг ашигла."},
+  {"id":"functions-basic-03","chapter_id":"functions","topic":"Хялбар илтгэгч тэгшитгэл, тэнцэтгэл биш","level":"basic","criteria":["3.1","3.2"],"prompt":"2ˣ=16 тэгшитгэлийг бод.","answer":"4","points":1,"explanation":"16=2⁴ тул x=4.","hint":"Хоёр талыг ижил суурьтай зэрэг болго."},
+  {"id":"functions-basic-04","chapter_id":"functions","topic":"Логарифм функц","level":"basic","criteria":["3.1"],"prompt":"y=log₃x функцийн тодорхойлогдох мужийг бич.","answer":"x>0","points":1,"explanation":"Логарифмын аргумент эерэг байх ёстой.","hint":"Логарифмын доторх илэрхийлэл ямар нөхцөлтэй вэ?"},
+  {"id":"functions-basic-05","chapter_id":"functions","topic":"Тоон аргументтай тригонометр функц","level":"basic","criteria":["3.1"],"prompt":"180°-ыг радианаар илэрхийл.","answer":"π","points":1,"explanation":"180°=π радиан.","hint":"180 градус хэдэн π радиантай тэнцүү вэ?"},
+  {"id":"functions-basic-06","chapter_id":"functions","topic":"y=eˣ ба y=ln x функц","level":"basic","criteria":["3.1"],"prompt":"e⁰-ийн утгыг ол.","answer":"1","points":1,"explanation":"Тэг зэрэгт дэвшүүлсэн эерэг тоо 1-тэй тэнцүү.","hint":"Экспонент функцийн огтлолцох үндсэн цэгийг сана."},
+  {"id":"functions-standard-01","chapter_id":"functions","topic":"Тооны логарифм","level":"standard","criteria":["3.1","3.2"],"prompt":"log₃x=4 тэгшитгэлийг бод.","answer":"81","points":2,"explanation":"x=3⁴=81.","hint":"logₐx=b бол x=aᵇ."},
+  {"id":"functions-standard-02","chapter_id":"functions","topic":"Логарифмын чанар","level":"standard","criteria":["3.2"],"prompt":"log₂8+log₂4-ийн утгыг ол.","answer":"5","points":2,"explanation":"log₂8=3, log₂4=2; нийлбэр 5.","hint":"Гишүүн бүрийг тусад нь ол."},
+  {"id":"functions-standard-03","chapter_id":"functions","topic":"Хялбар илтгэгч тэгшитгэл, тэнцэтгэл биш","level":"standard","criteria":["3.2"],"prompt":"(1/2)ˣ=8 тэгшитгэлийг бод.","answer":"-3","points":2,"explanation":"8=(1/2)⁻³ тул x=−3.","hint":"8-ыг 1/2 суурьтай зэрэг болго."},
+  {"id":"functions-standard-04","chapter_id":"functions","topic":"Рационал функц","level":"standard","criteria":["3.1","3.2"],"prompt":"y=2/(x−3)+1 функцийн босоо асимптотыг ол.","answer":"x=3","points":2,"explanation":"Хуваарь x−3=0 болох x=3 дээр асимптоттой.","hint":"Хуваарийг тэгтэй тэнцүүл."},
+  {"id":"functions-standard-05","chapter_id":"functions","topic":"Тоон аргументтай тригонометр функц","level":"standard","criteria":["3.1","3.2"],"prompt":"150°-ыг радианаар илэрхийл.","answer":"5π/6","points":2,"explanation":"150π/180=5π/6.","hint":"Градусыг π/180-ээр үржүүл."},
+  {"id":"functions-standard-06","chapter_id":"functions","topic":"y=eˣ ба y=ln x функц","level":"standard","criteria":["3.1","3.2"],"prompt":"ln x=2 тэгшитгэлийг бод.","answer":"e^2","points":2,"explanation":"Натурал логарифмыг экспонент хэлбэрт шилжүүлбэл x=e².","hint":"ln x=2 гэдэг нь e суурьтай ямар тэнцэтгэл вэ?"},
+  {"id":"functions-advanced-01","chapter_id":"functions","topic":"Логарифмын чанар","level":"advanced","criteria":["3.2"],"prompt":"log₂(x−1)=3 тэгшитгэлийг бод.","answer":"9","points":3,"explanation":"x−1=8, x=9; x>1 нөхцөлийг хангана.","hint":"Логарифмын тодорхойлолтоор аргументыг ол."},
+  {"id":"functions-advanced-02","chapter_id":"functions","topic":"Хялбар илтгэгч тэгшитгэл, тэнцэтгэл биш","level":"advanced","criteria":["3.2"],"prompt":"(1/2)ˣ>8 тэнцэтгэл бишийг бод.","answer":"x<-3","points":3,"explanation":"8=(1/2)⁻³; суурь 0 ба 1-ийн хооронд тул x<−3.","hint":"Суурь 1-ээс бага тул функц буурна."},
+  {"id":"functions-advanced-03","chapter_id":"functions","topic":"Логарифм функц","level":"advanced","criteria":["3.2"],"prompt":"log₂(x+1)+log₂(x−1)=3 тэгшитгэлийг бод.","answer":"3","points":3,"explanation":"x>1. log₂(x²−1)=3 тул x²=9; мужид тохирох шийд x=3.","hint":"Эхлээд тодорхойлогдох мужийг бич."},
+  {"id":"functions-advanced-04","chapter_id":"functions","topic":"Рационал функц","level":"advanced","criteria":["3.2"],"prompt":"y=(x+1)/(x−2) функцийн хэвтээ асимптотыг ол.","answer":"y=1","points":3,"explanation":"Ижил зэрэгтэй тул тэргүүлэх коэффициентүүдийн харьцаа 1.","hint":"Хүртвэр, хуваарийн хамгийн өндөр зэргийн коэффициентийг харьцуул."},
+  {"id":"functions-advanced-05","chapter_id":"functions","topic":"Тоон аргументтай тригонометр функц","level":"advanced","criteria":["3.2"],"prompt":"0≤x<2π завсарт sin x=−1/2 тэгшитгэлийн шийдийг радианаар бич.","answer":"7π/6,11π/6","points":3,"explanation":"Лавлах өнцөг π/6; синус сөрөг III, IV мөчид байна.","hint":"Нэгж тойргийн y координатыг ашигла."},
+  {"id":"functions-advanced-06","chapter_id":"functions","topic":"y=eˣ ба y=ln x функц","level":"advanced","criteria":["3.2"],"prompt":"e^(2x)=7 тэгшитгэлийг бод.","answer":"ln 7/2","points":3,"explanation":"2x=ln7 тул x=ln7/2.","hint":"Хоёр талд натурал логарифм ав."},
+  {"id":"derivatives-basic-01","chapter_id":"derivatives","topic":"y=eˣ функцийн уламжлал","level":"basic","criteria":["9.1"],"prompt":"y=eˣ функцийн уламжлалыг ол.","answer":"e^x","points":1,"explanation":"Экспонент функц өөрийнхөө уламжлалтай тэнцүү.","hint":"(eˣ)' томьёог сана."},
+  {"id":"derivatives-basic-02","chapter_id":"derivatives","topic":"y=ln x функцийн уламжлал","level":"basic","criteria":["9.1"],"prompt":"y=ln x функцийн уламжлалыг ол.","answer":"1/x","points":1,"explanation":"(ln x)'=1/x, x>0.","hint":"Натурал логарифмын уламжлал."},
+  {"id":"derivatives-basic-03","chapter_id":"derivatives","topic":"y=sin x ба y=cos x функцийн уламжлал","level":"basic","criteria":["9.1"],"prompt":"y=sin x функцийн уламжлалыг ол.","answer":"cos x","points":1,"explanation":"(sin x)'=cos x.","hint":"Өнцөг радианаар хэмжигдэнэ."},
+  {"id":"derivatives-basic-04","chapter_id":"derivatives","topic":"y=sin x ба y=cos x функцийн уламжлал","level":"basic","criteria":["9.1"],"prompt":"y=cos x функцийн уламжлалыг ол.","answer":"-sin x","points":1,"explanation":"(cos x)'=−sin x.","hint":"Косинусын уламжлалд хасах тэмдэгтэй."},
+  {"id":"derivatives-basic-05","chapter_id":"derivatives","topic":"y=tg x функцийн уламжлал","level":"basic","criteria":["9.1"],"prompt":"y=tg x функцийн уламжлалыг ол.","answer":"1/cos^2x","points":1,"explanation":"(tan x)'=1/cos²x.","hint":"Тангенсийн уламжлалын томьёо."},
+  {"id":"derivatives-standard-01","chapter_id":"derivatives","topic":"y=eˣ функцийн уламжлал","level":"standard","criteria":["9.1","9.2"],"prompt":"y=3eˣ−x² функцийн уламжлалыг ол.","answer":"3e^x-2x","points":2,"explanation":"Гишүүн бүрээр уламжилбал 3eˣ−2x.","hint":"Нийлбэр ба тогтмол үржвэрийн дүрэм."},
+  {"id":"derivatives-standard-02","chapter_id":"derivatives","topic":"y=sin x ба y=cos x функцийн уламжлал","level":"standard","criteria":["9.1","9.2"],"prompt":"y=2sin x−3cos x функцийн уламжлалыг ол.","answer":"2cos x+3sin x","points":2,"explanation":"(2sin x)'=2cos x, (−3cos x)'=3sin x.","hint":"Синус, косинусын уламжлалыг тус тус хэрэглэ."},
+  {"id":"derivatives-standard-03","chapter_id":"derivatives","topic":"Үржвэр функцийн уламжлал","level":"standard","criteria":["9.2"],"prompt":"y=xeˣ функцийн уламжлалыг ол.","answer":"e^x(1+x)","points":2,"explanation":"Үржвэрийн дүрмээр y'=eˣ+xeˣ.","hint":"(uv)'=u'v+uv'."},
+  {"id":"derivatives-standard-04","chapter_id":"derivatives","topic":"Ноогдвор функцийн уламжлал","level":"standard","criteria":["9.2"],"prompt":"y=1/x функцийн уламжлалыг ол.","answer":"-1/x^2","points":2,"explanation":"x⁻¹ гэж үзвэл уламжлал −x⁻².","hint":"Зэрэгт функцийн дүрэм."},
+  {"id":"derivatives-standard-05","chapter_id":"derivatives","topic":"Давхар функцийн уламжлал","level":"standard","criteria":["9.2"],"prompt":"y=(2x+1)³ функцийн уламжлалыг ол.","answer":"6(2x+1)^2","points":2,"explanation":"Гинжин дүрмээр 3(2x+1)²·2.","hint":"Гаднахын уламжлалыг дотоодын уламжлалаар үржүүл."},
+  {"id":"derivatives-advanced-01","chapter_id":"derivatives","topic":"Давхар функцийн уламжлал","level":"advanced","criteria":["9.2"],"prompt":"y=ln(3x²+1) функцийн уламжлалыг ол.","answer":"6x/(3x^2+1)","points":3,"explanation":"(ln u)'=u'/u; u'=6x.","hint":"Логарифмд гинжин дүрэм хэрэглэ."},
+  {"id":"derivatives-advanced-02","chapter_id":"derivatives","topic":"Үржвэр функцийн уламжлал","level":"advanced","criteria":["9.2"],"prompt":"y=x²sin x функцийн уламжлалыг ол.","answer":"2x sin x+x^2 cos x","points":3,"explanation":"Үржвэрийн дүрмээр 2x sin x+x² cos x.","hint":"u=x², v=sin x гэж сонго."},
+  {"id":"derivatives-advanced-03","chapter_id":"derivatives","topic":"Ноогдвор функцийн уламжлал","level":"advanced","criteria":["9.2"],"prompt":"y=(x+1)/(x−1) функцийн уламжлалыг ол.","answer":"-2/(x-1)^2","points":3,"explanation":"[(x−1)−(x+1)]/(x−1)²=−2/(x−1)².","hint":"Хүртвэрт u'v−uv' гэж бич."},
+  {"id":"derivatives-advanced-04","chapter_id":"derivatives","topic":"y=tg x функцийн уламжлал","level":"advanced","criteria":["9.2"],"prompt":"y=tg(3x) функцийн уламжлалыг ол.","answer":"3/cos^2(3x)","points":3,"explanation":"Гинжин дүрэм: 3/cos²(3x).","hint":"Тангенсийн дүрэм дээр гинжин дүрэм нэм."},
+  {"id":"derivatives-advanced-05","chapter_id":"derivatives","topic":"Давхар функцийн уламжлал","level":"advanced","criteria":["9.2"],"prompt":"x=t², y=t³ үед t=2 дээр dy/dx-ийг ол.","answer":"3","points":3,"explanation":"dy/dx=(3t²)/(2t)=3t/2; t=2 үед 3.","hint":"Параметрт уламжлалын харьцааг хэрэглэ."},
+  {"id":"integrals-basic-01","chapter_id":"integrals","topic":"Илтгэгч, тригонометр, рационал функцийн интеграл","level":"basic","criteria":["10.1"],"prompt":"∫2x dx-ийг ол.","answer":"x^2+C","points":1,"explanation":"(x²)'=2x тул анхны функц x²+C.","hint":"Зэрэгт функцийн интеграл."},
+  {"id":"integrals-basic-02","chapter_id":"integrals","topic":"Илтгэгч, тригонометр, рационал функцийн интеграл","level":"basic","criteria":["10.1"],"prompt":"∫cos x dx-ийг ол.","answer":"sin x+C","points":1,"explanation":"(sin x)'=cos x.","hint":"Уламжлалаар хариугаа шалга."},
+  {"id":"integrals-basic-03","chapter_id":"integrals","topic":"f′(x)/f(x) хэлбэрийн интеграл","level":"basic","criteria":["10.1"],"prompt":"∫1/x dx-ийг ол.","answer":"ln|x|+C","points":1,"explanation":"∫f'/f dx=ln|f|+C, f=x.","hint":"Логарифмын интегралын үндсэн хэлбэр."},
+  {"id":"integrals-basic-04","chapter_id":"integrals","topic":"Илтгэгч, тригонометр, рационал функцийн интеграл","level":"basic","criteria":["10.1"],"prompt":"∫₀² 1 dx-ийн утгыг ол.","answer":"2","points":1,"explanation":"Анхны функц x; 2−0=2.","hint":"Тогтмол функцийн интегралыг ол."},
+  {"id":"integrals-basic-05","chapter_id":"integrals","topic":"Рационал функцийн интеграл","level":"basic","criteria":["10.2"],"prompt":"∫1/(x−2) dx-ийг ол.","answer":"ln|x-2|+C","points":1,"explanation":"∫1/(x−a)dx=ln|x−a|+C.","hint":"Логарифмын анхны функцийн томьёо."},
+  {"id":"integrals-standard-01","chapter_id":"integrals","topic":"Илтгэгч, тригонометр, рационал функцийн интеграл","level":"standard","criteria":["10.1"],"prompt":"∫(3x²−2sin x)dx-ийг ол.","answer":"x^3+2cos x+C","points":2,"explanation":"∫3x²dx=x³, ∫−2sin x dx=2cos x.","hint":"Гишүүн бүрээр интегралчил."},
+  {"id":"integrals-standard-02","chapter_id":"integrals","topic":"Рационал функцийн интеграл","level":"standard","criteria":["10.2"],"prompt":"∫1/((x−1)(x+1)) dx-ийг ол.","answer":"1/2 ln|x-1|-1/2 ln|x+1|+C","points":2,"explanation":"Хэсэг бутархайгаар 1/2·1/(x−1)−1/2·1/(x+1) гэж задална.","hint":"A/(x−1)+B/(x+1) гэж тавь."},
+  {"id":"integrals-standard-03","chapter_id":"integrals","topic":"f′(x)/f(x) хэлбэрийн интеграл","level":"standard","criteria":["10.2"],"prompt":"∫2x/(x²+1) dx-ийг ол.","answer":"ln(x^2+1)+C","points":2,"explanation":"Хуваарийн уламжлал 2x тул ln(x²+1)+C.","hint":"Хүртвэр хуваарийн уламжлал мөн эсэхийг шалга."},
+  {"id":"integrals-standard-04","chapter_id":"integrals","topic":"Орлуулах аргаар тодорхой болон тодорхой бус интегралыг хялбар интегралд шилжүүлэх","level":"standard","criteria":["10.2"],"prompt":"∫2x(x²+1)³ dx-ийг ол.","answer":"(x^2+1)^4/4+C","points":2,"explanation":"u=x²+1, du=2x dx; ∫u³du=u⁴/4+C.","hint":"Хаалт доторхыг u гэж сонго."},
+  {"id":"integrals-standard-05","chapter_id":"integrals","topic":"Орлуулах аргаар тодорхой болон тодорхой бус интегралыг хялбар интегралд шилжүүлэх","level":"standard","criteria":["10.2"],"prompt":"∫xeˣ dx-ийг хэсэгчлэн интегралчил.","answer":"e^x(x-1)+C","points":2,"explanation":"u=x, dv=eˣdx; xeˣ−∫eˣdx=eˣ(x−1)+C.","hint":"∫u dv=uv−∫v du."},
+  {"id":"integrals-advanced-01","chapter_id":"integrals","topic":"Илтгэгч, тригонометр, рационал функцийн интеграл","level":"advanced","criteria":["10.1","10.2"],"prompt":"∫₀¹ 3x²/(x³+1) dx-ийн утгыг ол.","answer":"ln 2","points":3,"explanation":"f=x³+1, f'=3x² тул ln(x³+1)|₀¹=ln2.","hint":"f′/f бүтцийг тань."},
+  {"id":"integrals-advanced-02","chapter_id":"integrals","topic":"Рационал функцийн интеграл","level":"advanced","criteria":["10.2"],"prompt":"∫1/(x²−1) dx-ийг ол.","answer":"1/2 ln|x-1|-1/2 ln|x+1|+C","points":3,"explanation":"1/(x²−1)=1/2·1/(x−1)−1/2·1/(x+1), дараа нь гишүүн бүрийг интегралчилна.","hint":"Хуваарийг (x−1)(x+1) болгон задла."},
+  {"id":"integrals-advanced-03","chapter_id":"integrals","topic":"Орлуулах аргаар тодорхой болон тодорхой бус интегралыг хялбар интегралд шилжүүлэх","level":"advanced","criteria":["10.2"],"prompt":"∫x ln x dx-ийг хэсэгчлэн интегралчил.","answer":"(x^2/2)ln x-x^2/4+C","points":3,"explanation":"u=ln x, dv=x dx гэж авбал x²ln x/2−∫x/2 dx.","hint":"u-г логарифм, dv-г x dx гэж сонго."},
+  {"id":"integrals-advanced-04","chapter_id":"integrals","topic":"∫f′(x)/f(x)dx = ln|f(x)| + C томьёогоор тодорхой интеграл бодох","level":"advanced","criteria":["10.2"],"prompt":"∫₁ᵉ 1/x dx-ийн утгыг ол.","answer":"1","points":3,"explanation":"Анхны функц ln x; ln e−ln1=1.","hint":"Логарифмын анхны функцийг хязгаарт үнэл."},
+  {"id":"integrals-advanced-05","chapter_id":"integrals","topic":"Орлуулах аргаар тодорхой болон тодорхой бус интегралыг хялбар интегралд шилжүүлэх","level":"advanced","criteria":["10.2"],"prompt":"∫₀¹ 2x cos(x²) dx-ийг бод.","answer":"sin 1","points":3,"explanation":"u=x² гэж орлуулбал ∫₀¹cos u du=sin1.","hint":"u=x² гэж тавь."},
+  {"id":"probability-basic-01","chapter_id":"probability","topic":"Дискрет санамсаргүй хувьсагч","level":"basic","criteria":["12.1"],"prompt":"0.2, 0.3, p магадлалуудын нийлбэр 1 бол p-г ол.","answer":"0.5","points":1,"explanation":"p=1−0.2−0.3=0.5.","hint":"Бүх магадлалын нийлбэр 1."},
+  {"id":"probability-basic-02","chapter_id":"probability","topic":"Математик дундаж","level":"basic","criteria":["12.1"],"prompt":"X=1,3 утгууд тус бүр 0.5 магадлалтай бол E(X)-ийг ол.","answer":"2","points":1,"explanation":"E(X)=1·0.5+3·0.5=2.","hint":"Утга бүрийг магадлалаар үржүүл."},
+  {"id":"probability-basic-03","chapter_id":"probability","topic":"Дисперс","level":"basic","criteria":["12.1"],"prompt":"Дисперс 16 бол стандарт хазайлтыг ол.","answer":"4","points":1,"explanation":"σ=√16=4.","hint":"Стандарт хазайлт нь дисперсийн язгуур."},
+  {"id":"probability-basic-04","chapter_id":"probability","topic":"Дискрет санамсаргүй хувьсагч","level":"basic","criteria":["12.1"],"prompt":"X~B(5,0.2) бол E(X)-ийг ол.","answer":"1","points":1,"explanation":"Биномын дундаж np=5·0.2=1.","hint":"Бином тархалтын дундаж np."},
+  {"id":"probability-basic-05","chapter_id":"probability","topic":"Дисперс","level":"basic","criteria":["12.1"],"prompt":"X~B(10,0.5) үед Var(X)-ийг ол.","answer":"2.5","points":1,"explanation":"np(1−p)=10·0.5·0.5=2.5.","hint":"Биномын дисперсийн томьёо."},
+  {"id":"probability-standard-01","chapter_id":"probability","topic":"Дискрет санамсаргүй хувьсагч","level":"standard","criteria":["12.2"],"prompt":"X~B(4,0.5) үед P(X=2)-ыг ол.","answer":"3/8","points":2,"explanation":"C(4,2)(0.5)²(0.5)²=6/16=3/8.","hint":"Биномын магадлалын томьёог хэрэглэ."},
+  {"id":"probability-standard-02","chapter_id":"probability","topic":"Математик дундаж","level":"standard","criteria":["12.2"],"prompt":"X=0,1,2 утгуудын магадлал 0.2,0.5,0.3 бол E(X)-ийг ол.","answer":"1.1","points":2,"explanation":"E(X)=0·0.2+1·0.5+2·0.3=1.1.","hint":"Утга бүрийг жигнэж нийлбэрлэ."},
+  {"id":"probability-standard-03","chapter_id":"probability","topic":"Дисперс","level":"standard","criteria":["12.1","12.2"],"prompt":"X=0,2 утгууд тус бүр 0.5 магадлалтай бол Var(X)-ийг ол.","answer":"1","points":2,"explanation":"μ=1; Var=0.5(0−1)²+0.5(2−1)²=1.","hint":"Эхлээд дундажийг ол."},
+  {"id":"probability-standard-04","chapter_id":"probability","topic":"Дисперс","level":"standard","criteria":["12.2"],"prompt":"X~N(70,10²) үед X=80-д харгалзах z оноог ол.","answer":"1","points":2,"explanation":"z=(80−70)/10=1.","hint":"z=(x−μ)/σ."},
+  {"id":"probability-standard-05","chapter_id":"probability","topic":"Дискрет санамсаргүй хувьсагч","level":"standard","criteria":["12.2"],"prompt":"X~B(5,0.1) үед яг нэг амжилтын магадлалыг ол.","answer":"0.32805","points":2,"explanation":"C(5,1)·0.1·0.9⁴=0.32805.","hint":"Биномын томьёонд r=1 орлуул."},
+  {"id":"probability-advanced-01","chapter_id":"probability","topic":"Математик дундаж","level":"advanced","criteria":["12.2"],"prompt":"X~B(n,0.2), E(X)=6 бол n-ийг ол.","answer":"30","points":3,"explanation":"np=6 тул 0.2n=6, n=30.","hint":"Биномын дундажийн томьёог хэрэглэ."},
+  {"id":"probability-advanced-02","chapter_id":"probability","topic":"Дисперс","level":"advanced","criteria":["12.2"],"prompt":"X~B(20,0.25) үед Var(X)-ийг ол.","answer":"3.75","points":3,"explanation":"Var=np(1−p)=20·0.25·0.75=3.75.","hint":"Биномын дисперсийг тооц."},
+  {"id":"probability-advanced-03","chapter_id":"probability","topic":"Дисперс","level":"advanced","criteria":["12.2"],"prompt":"X~N(100,15²) үед X=130-ийн z оноог ол.","answer":"2","points":3,"explanation":"z=(130−100)/15=2.","hint":"Зөрүүг стандарт хазайлтад хуваа."},
+  {"id":"probability-advanced-04","chapter_id":"probability","topic":"Дискрет санамсаргүй хувьсагч","level":"advanced","criteria":["12.2"],"prompt":"X~B(100,0.5) тархалтын μ ба σ-г ол.","answer":"50,5","points":3,"explanation":"μ=np=50; Var=np(1−p)=25 тул σ=5.","hint":"Дундаж, дисперсийн бином томьёог хэрэглэ."},
+  {"id":"probability-advanced-05","chapter_id":"probability","topic":"Математик дундаж","level":"advanced","criteria":["12.2"],"prompt":"X=0,1,2 утгуудын магадлал 0.25,0.5,0.25 бол E(X²)-ийг ол.","answer":"1.5","points":3,"explanation":"E(X²)=0²·0.25+1²·0.5+2²·0.25=1.5.","hint":"Утгыг квадратлаад магадлалаар жигнэ."},
+  {"id":"complex-basic-01","chapter_id":"complex","topic":"Комплекс тоо, бодит ба хуурмаг хэсэг","level":"basic","criteria":["14.1"],"prompt":"z=4−3i үед Im(z)-ийг ол.","answer":"-3","points":1,"explanation":"Хуурмаг хэсэг нь i-ийн коэффициент −3.","hint":"Im(z) нь bi гишүүний b коэффициент."},
+  {"id":"complex-basic-02","chapter_id":"complex","topic":"Комплекс тооны нэмэх үйлдэл","level":"basic","criteria":["14.1"],"prompt":"(2+i)+(3+2i)-ийг бод.","answer":"5+3i","points":1,"explanation":"Бодит хэсгүүд 2+3=5, хуурмаг коэффициентүүд 1+2=3.","hint":"Ижил хэсгүүдийг нэм."},
+  {"id":"complex-basic-03","chapter_id":"complex","topic":"Комплекс тооны үржүүлэх үйлдэл","level":"basic","criteria":["14.1"],"prompt":"i²-ийн утгыг ол.","answer":"-1","points":1,"explanation":"i²=−1 гэсэн тодорхойлолттой.","hint":"Хуурмаг нэгжийн үндсэн чанар."},
+  {"id":"complex-basic-04","chapter_id":"complex","topic":"Хоёр комплекс тооны тэнцүүгийн тодорхойлолт","level":"basic","criteria":["14.1"],"prompt":"x+2i=3+yi бол x,y-г ол.","answer":"x=3,y=2","points":1,"explanation":"Бодит хэсгүүд x=3, хуурмаг коэффициентүүд y=2.","hint":"Хоёр хэсгийг тус тус тэнцүүл."},
+  {"id":"complex-basic-05","chapter_id":"complex","topic":"Комплекс тооны модул ба хосмог","level":"basic","criteria":["14.1"],"prompt":"z=3+4i тооны модулийг ол.","answer":"5","points":1,"explanation":"|z|=√(3²+4²)=5.","hint":"|a+bi|=√(a²+b²)."},
+  {"id":"complex-standard-01","chapter_id":"complex","topic":"Комплекс тооны үржүүлэх үйлдэл","level":"standard","criteria":["14.1"],"prompt":"(2+3i)(1−i)-ийг бод.","answer":"5+i","points":2,"explanation":"2−2i+3i−3i²=5+i.","hint":"Хаалт задлаад i²=−1 хэрэглэ."},
+  {"id":"complex-standard-02","chapter_id":"complex","topic":"Комплекс тооны хуваах үйлдэл","level":"standard","criteria":["14.1"],"prompt":"1/(1+i)-ийг a+bi хэлбэрт бич.","answer":"1/2-i/2","points":2,"explanation":"Хосмог 1−i-ээр үржүүлэхэд (1−i)/2.","hint":"Хуваарийн хосмогоор үржүүл."},
+  {"id":"complex-standard-03","chapter_id":"complex","topic":"Комплекс тооны модул ба хосмог","level":"standard","criteria":["14.1"],"prompt":"z=−5+12i тооны хосмогийг ол.","answer":"-5-12i","points":2,"explanation":"Хосмог авахад хуурмаг хэсгийн тэмдгийг солино.","hint":"Бодит хэсгийг хэвээр үлдээ."},
+  {"id":"complex-standard-04","chapter_id":"complex","topic":"Бодит коэффициенттэй квадрат тэгшитгэлийн комплекс язгуур","level":"standard","criteria":["14.2"],"prompt":"x²+9=0 тэгшитгэлийн шийдийг ол.","answer":"±3i","points":2,"explanation":"x²=−9 тул x=±3i.","hint":"Сөрөг тооны язгуурт i орно."},
+  {"id":"complex-standard-05","chapter_id":"complex","topic":"Комплекс тооны геометр дүрслэл","level":"standard","criteria":["14.1"],"prompt":"z=1+√3i тооны модулийг ол.","answer":"2","points":2,"explanation":"|z|=√(1²+(√3)²)=2.","hint":"Пифагорын теорем хэрэглэ."},
+  {"id":"complex-advanced-01","chapter_id":"complex","topic":"Комплекс тооны хуваах үйлдэл","level":"advanced","criteria":["14.1","14.2"],"prompt":"(3+4i)/(1−i)-ийг a+bi хэлбэрт бич.","answer":"-1/2+7i/2","points":3,"explanation":"Хосмог 1+i-ээр үржүүлэхэд хүртвэр −1+7i, хуваарь 2.","hint":"Хуваарийн хосмогоор өргөтгө."},
+  {"id":"complex-advanced-02","chapter_id":"complex","topic":"Комплекс тооны үржүүлэх үйлдэл","level":"advanced","criteria":["14.2"],"prompt":"(1+i)⁴-ийг ол.","answer":"-4","points":3,"explanation":"(1+i)²=2i тул (1+i)⁴=(2i)²=−4.","hint":"Эхлээд квадратыг ол."},
+  {"id":"complex-advanced-03","chapter_id":"complex","topic":"Комплекс тооны геометр дүрслэл","level":"advanced","criteria":["14.2"],"prompt":"z=1+√3i тоог туйлын хэлбэрт бич.","answer":"2(cos(π/3)+i sin(π/3))","points":3,"explanation":"Модуль 2, аргумент π/3.","hint":"Модуль болон аргументыг ол."},
+  {"id":"complex-advanced-04","chapter_id":"complex","topic":"Бодит коэффициенттэй квадрат тэгшитгэлийн комплекс язгуур","level":"advanced","criteria":["14.2"],"prompt":"x²−2x+5=0 тэгшитгэлийг бод.","answer":"1±2i","points":3,"explanation":"D=4−20=−16 тул x=(2±4i)/2=1±2i.","hint":"Квадрат тэгшитгэлийн томьёонд сөрөг дискриминант орлуул."},
+  {"id":"complex-advanced-05","chapter_id":"complex","topic":"Комплекс тооны геометр дүрслэл","level":"advanced","criteria":["14.2"],"prompt":"|z−(2−i)|<3 нөхцөлийг геометрээр тайлбарла.","answer":"Төв 2-i, радиус 3 дотор диск","points":3,"explanation":"Модул нь z ба 2−i цэгийн зай тул зай 3-аас бага бүх цэгийг дүрсэлнэ.","hint":"|z−a| нь z ба a цэгийн зай."}
+]

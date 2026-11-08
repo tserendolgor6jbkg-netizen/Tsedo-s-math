@@ -1,0 +1,44 @@
+{
+  "materials": [
+    {
+      "id": "eesh-material-2018-a",
+      "year": 2018,
+      "variant": "А",
+      "title": "2018 оны ЭЕШ · А хувилбарын бодолт",
+      "filename": "2018-a.pptx",
+      "slide_count": 43
+    },
+    {
+      "id": "eesh-material-2019-a",
+      "year": 2019,
+      "variant": "А",
+      "title": "2019 оны ЭЕШ · А хувилбарын бодолт",
+      "filename": "2019-a.pptx",
+      "slide_count": 42
+    },
+    {
+      "id": "eesh-material-2020-d",
+      "year": 2020,
+      "variant": "Д",
+      "title": "2020 оны ЭЕШ · Д хувилбарын бодолт",
+      "filename": "2020-d.pptx",
+      "slide_count": 47
+    },
+    {
+      "id": "eesh-material-2021-a",
+      "year": 2021,
+      "variant": "А",
+      "title": "2021 оны ЭЕШ · А хувилбар",
+      "filename": "2021-a.pptx",
+      "slide_count": 56
+    },
+    {
+      "id": "eesh-material-2022-a",
+      "year": 2022,
+      "variant": "А",
+      "title": "2022 оны ЭЕШ · А хувилбар",
+      "filename": "2022-a.pptx",
+      "slide_count": 54
+    }
+  ]
+}
